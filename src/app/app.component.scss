@@ -1,0 +1,35 @@
+:host {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 50px;
+  background-color: #6666e7;
+}
+
+.content {
+  flex: 1;
+}
+
+footer {
+  height: 20px;
+  background-color: #6666e7;
+}
+
+aside {
+  margin-right: 1rem;
+  border-right: 1px solid #c9c9c9;
+}
+
+ul, li {
+  list-style: none;
+}
+
+ul {
+  padding-right: 1rem;
+}
+
+li {
+ cursor: pointer;
+}
