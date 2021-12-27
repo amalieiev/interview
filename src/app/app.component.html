@@ -2,7 +2,7 @@
 <div class="row content">
   <aside>
     <ul>
-      <li *ngFor="let route of routes" [routerLink]="route.path">{{ route.title }}</li>
+      <li *ngFor="let question of questions" [routerLink]="question.id">{{ question.title }}</li>
     </ul>
   </aside>
 

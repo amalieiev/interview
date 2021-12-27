@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { routes } from './app-routing.module';
+import {questions} from './app-routing.module';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +7,5 @@ import { routes } from './app-routing.module';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  public routes = routes;
+  public questions = questions;
 }

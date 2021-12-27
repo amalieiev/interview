@@ -8,6 +8,9 @@ import { LifeCicleHooksComponent } from './pages/life-cicle-hooks/life-cicle-hoo
 import { FlexBoxComponent } from './pages/flex-box/flex-box.component';
 import { UtilityTypesComponent } from './pages/utility-types/utility-types.component';
 import { EventLoopComponent } from './pages/event-loop/event-loop.component';
+import { PureImpurePipeComponent } from './pages/pure-impure-pipe/pure-impure-pipe.component';
+import { ClosureComponent } from './pages/closure/closure.component';
+import { DynamicComponentsComponent } from './pages/dynamic-components/dynamic-components.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { EventLoopComponent } from './pages/event-loop/event-loop.component';
     LifeCicleHooksComponent,
     FlexBoxComponent,
     UtilityTypesComponent,
-    EventLoopComponent
+    EventLoopComponent,
+    PureImpurePipeComponent,
+    ClosureComponent,
+    DynamicComponentsComponent
   ],
   imports: [
     BrowserModule,
